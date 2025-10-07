@@ -1,12 +1,13 @@
 #!C:\Users\navee\PycharmProjects\PythonProject\PythonProject\.venv\Scripts\python.exe
 
-# this will print hello 5 times 0,1,2,3,4
+# this will print hello 5 times 0,1,2,3,4 .for loop that iterates 5 times,
+# with i taking values from 0 to 4. On each iteration, it prints the current value of i.
+# This results in the numbers 0, 1, 2, 3, and 4 being printed, each on a new line.
 for i in range(5):
-    print("Hello " + str(i))
+    print(i)
 # this print hello 3 times 1,2,3 ( does not include 4)
 for i in range(1, 4):
     print(i)
-
 
 # it skips 2 and print 1 to 7 ( does not include 8)
 for i in range(1, 8,2):
