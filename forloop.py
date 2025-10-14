@@ -23,3 +23,13 @@ for _ in range(3):
 
     else:
         print("Access denied. Try again.")
+
+for i in range(5):
+    print(" start the loop " + str(i))
+
+while i <= 10:
+    print("numbers")
+    i +=1
+
+for i in range(10, 40, 10):
+    print("hello" + str(i ))
