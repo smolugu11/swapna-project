@@ -33,3 +33,10 @@ while i <= 10:
 
 for i in range(10, 40, 10):
     print("hello" + str(i ))
+
+x = ["apple", "banana", "cherry"]
+for i in x:
+    print(i)
+
+for i in range(20, 15,-1): # PRINT RESERVE : 20, 19, 18, 17, 16
+    print(i)
