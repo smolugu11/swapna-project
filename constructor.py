@@ -2,7 +2,9 @@
 
 class Person():
 
-# add person function (method) like eat, talk, work is method. Which is a function inside a class. It defines what the object can do.You call a method on an object
+# Inti is a constructor in python
+# add person function (method) like eat, talk, work is method. Which is a function inside a class.
+# It defines what the object can do.You call a method on an object
     def __init__(self, name):
 
         print(f"{name} is created")
