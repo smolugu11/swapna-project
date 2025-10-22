@@ -21,7 +21,7 @@ for bird in (obj_bird, obj_sparrow, obj_penguin):
     bird.flight()
 
 """
-1.We'll start with a simple base class(super calss) called Bird.Here we define a general Bird class with two methods — one introduces the concept, and the other talks about flight.
+1.We'll start with a simple base class(super class) called Bird.Here we define a general Bird class with two methods — one introduces the concept, and the other talks about flight.
 
 2.Create a child(sub) classes Sparrow and Penguin that inherit from Bird.Each child class has its own version of flight(), providing behavior specific to that type of bird.
 
