@@ -5,7 +5,7 @@ class Testteam: #parents class or super class
         print("Employee 2 is a Tester")
 
 #   Inheritance: scrummaster class inherits from Testteam class. its a Child or sub class
-class Scrummaster(Testteam):  # Inheritance: EmployeeDetails class inherits from Employee class. Child or sub class
+class Scrummaster(Testteam):  # Inheritance: EmployeeDetails class inherits from Employee class. Child or sub class. Sub calss can access properties and methods of parent class but super class cannot access properties and methods of child class
     def emp3(self):
         print(("Employee 3 is a scrum master"))
 
@@ -26,3 +26,5 @@ m1.emp4()
 
 #multiple inheritance. Manager class is child, it inherits from Scrummaster(parent) class and which inherits from Testteam clasfff
 """In Python, inheritance lets you create a new class (called a child or derived class) that reuses the properties and methods of an existing class (the parent or base class). This makes your code more modular, organized, and easier to maintain by minimizing repetition."""
+
+# multple inheritance is when are 3 classes, 3 rd class inherits from 1st and 2nd class. 2 parent class does not inherit from first class
