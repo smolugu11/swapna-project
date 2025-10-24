@@ -9,8 +9,10 @@ class Sparrow(Bird):
         print("Sparrows can fly.")
 
 class Penguin(Bird):
-    def flight(self):
-        print("Penguins cannot fly.")
+    def temo(self):
+        pass
+    # def flight(self):
+    #     print("Penguins cannot fly.")
 
 obj_bird = Bird()
 obj_sparrow = Sparrow()
