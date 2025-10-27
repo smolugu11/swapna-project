@@ -1,3 +1,15 @@
+"""
+MRO (Method Resolution Order):Defines the order Python follows to look up methods in a class hierarchy
+It’s the rulebook for inheritance
+
+The super constructor in Python refers to using the super() function to call the constructor (__init__ method) of a parent class from within a child class. It’s a key part of inheritance and helps you reuse and extend functionality without rewriting code.
+What Does super() Do?
+- It gives access to methods from a parent or superclass.
+- Most commonly used to call the parent’s constructor (__init__) inside a child class.
+- It follows Python’s Method Resolution Order (MRO) to determine which method to call next.
+"""
+
+
 class A:
     def __init__(self):
         print("Inside A init")
