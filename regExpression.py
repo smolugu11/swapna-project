@@ -14,9 +14,8 @@ main()
 
 
 """
-The main purpose of regular expressions (RegEx) in Python is to search for, match, extract, and manipulate specific patterns of text within strings using the re module.​
+The main purpose of regular expressions (RegEx) in Python is to search fo]GH\TAAAAAAAAAAAYYYYYYYYRAAr, match, extract, and manipulate specific patterns of text within strings using the re module.​
 
-Core Purpose
 Regular expressions work like a pattern-matching language. They allow you to define rules describing what text structures you want to find—such as words, numbers, emails, or specific formats (like dates or phone numbers).​
 
 For example, RegEx can:

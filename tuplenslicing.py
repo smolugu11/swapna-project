@@ -2,6 +2,7 @@
 In Python, containers are data structures that hold and organize multiple elements — like lists, tuples, sets, and dictionaries. They’re essential for grouping, accessing, and manipulating data efficiently
 tuples are immutable-cant be changed
 list are mutable and can te changed
+# Very importent  + operator please check code at the ednd
 """
 
 def main():
@@ -19,10 +20,45 @@ def main():
     print(animals[-1]) # end of the list element is bird
     print(animals[-3:-1]) # - animals[-3] → "tiger" (3rd from the end,  animals[-1] → "bird" (but not included in slicing)
 
+#tulpe pack and unapck
+    def main():
+        elements = (True, 3.2, 5, "cat")  # packing
+        (is_raining, weight, volume, animal) = elements  # unpack
+        print(is_raining)
+        print(weight)
+        print(volume)
+        print(animal)
+
+        fruits = ('banana', 'apple', 'pear', 'mango', 'kiwi')
+        (fruit1, fruit2, fruit3, *more_fruits) = fruits
+        print(fruit1)
+        print(fruit2)
+        print(fruit3)
+        print(type(fruits))
+        print(*more_fruits)
+
+#tuples fucntions and operator +
     text ="It was the best time"
     print(text)
     print(text[3])
     print(text[0:6])
 
+    number1 = (1, 2, 3, 4, 5, 6, 7, 8)
+
+    print(len(number1))
+    print(min(number1))
+    print(max(number1))
+    print(sum(number1))
+    print(number1.count(3))  # counts how many times the 3 is in tuple
+    print(number1.index(3))
+    print(number1 + (9, 10))  # you get a new tuple
+    print((1, 2, 3) * 3)  # it prints 1, 2, 3 3 times
+
+    # below are two tuples
+    animals1 = ('dog', 'cat', 'elephant')  # we cant change the tuple so
+    animals2 = ('lion', 'cheta', 'pig')
+    print(animals1)  # it created new tulpe  ('dog', 'cat', 'elephant', 'lion', 'cheta', 'pig')
+    animals1 += animals2  # animal1 = animal1 +animals 2
+    print(animals1)
 
 main()
