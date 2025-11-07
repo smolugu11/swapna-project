@@ -26,7 +26,7 @@ def main():
     print(days)
 
     item = days.pop(0) # it removes thurs from days[0:3] = [] #['Thu', 'Fri', 'Sat', 'Sun']
-    print(itemP8'NR')
+    print(item)
     return
 
 
