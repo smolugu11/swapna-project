@@ -11,10 +11,10 @@ def main():
         pickle.dump(lookup, file)
 
 
-    with open("data.pkl", "rb") as file:
-        numbers = pickle.load(file)
-        test = pickle.load(file)
-        lookup = pickle.load(file)
+    # with open("data.pkl", "rb") as file:
+    #     numbers = pickle.load(file)
+    #     test = pickle.load(file)
+    #     lookup = pickle.load(file)
 
 
     # with open("data.pkl", "rb") as file:

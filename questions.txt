@@ -1,0 +1,37 @@
+ Core Python Interview Question
+What are Python’s key features?
+- Interpreted, dynamically typed, supports multiple paradigms (OOP, functional, procedural), extensive libraries.
+Difference between list, tuple, and set?
+- List: mutable, ordered.  Set: mutable, unordered, no duplicates.Tuple: immutable, ordered.
+What is the use of self in Python classes?
+- Refers to the instance of the class; used to access variables and methods.
+What is the difference between is and ==?
+- is: checks identity (same object). ==: checks equality (same value).
+Explain Python’s memory management.
+- Uses reference counting and garbage collection via the gc module.
+ Intermediate-Level Question
+What are Python decorators?
+-Functions that modify the behavior of other functions or methods.
+What are list comprehensions?
+- Concise way to create lists using [expression for item in iterable if condition].
+What is the difference between @staticmethod and @classmethod?
+- staticmethod: no access to class or instance. classmethod: receives class as first argument.
+
+- How does Python handle exceptions?
+- Using try, except, finally, and raise.
+
+- What is slicing in Python?
+- Extracting parts of sequences using [start:stop:step].
+
+
+🚀 Advanced & Role-Specific Questions
+What are generators and how do they differ from iterators?
+- Generators use yield, are memory-efficient, and lazy-evaluated.
+Explain GIL (Global Interpreter Lock).
+- A mutex that protects access to Python objects, affecting multi-threading performance.
+How do you optimize Python code for performance?
+- Use built-in functions, avoid global variables, leverage NumPy/Pandas, profile with cProfile.
+What are Python modules and packages?
+- Module: a single .py file. Package: a directory with __init__.py.
+How do you make a Python script executable on Unix?
+- Add shebang (#!/usr/bin/env python3) and set executable permissions.
