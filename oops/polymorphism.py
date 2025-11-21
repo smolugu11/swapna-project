@@ -9,7 +9,7 @@ class Sparrow(Bird):
         print("Sparrows can fly.")
 
 class Penguin(Bird):
-    def temo(self):
+    def temp(self):
         pass
     # def flight(self):
     #     print("Penguins cannot fly.")
