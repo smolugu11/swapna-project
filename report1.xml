@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="11" time="0.138" timestamp="2025-11-18T10:35:15.364196-05:00" hostname="DESKTOP-0IE9QFH"><testcase classname="pytest.DemoFirstTest.test_first_run" name="test_1" time="0.001" /><testcase classname="pytest.DemoFirstTest.test_first_run" name="test_2" time="0.001" /><testcase classname="pytest.DemoFirstTest.test_first_run" name="test_3" time="0.001"><failure message="AssertionError: Title does not match&#10;assert 'Jenkin' in 'jenkins is CI server'">def test_3():
+        name = "Jenkin"
+        title = "jenkins is CI server"
+&gt;       assert name in title, "Title does not match" # it print the message( title doesnot match) if the test fails
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: Title does not match
+E       assert 'Jenkin' in 'jenkins is CI server'
+
+pytest\DemoFirstTest\test_first_run.py:15: AssertionError</failure></testcase><testcase classname="pytest.DemoFirstTest.test_second" name="test_login" time="0.001" /><testcase classname="pytest.DemoFirstTest.test_second" name="test_checkout" time="0.001" /><testcase classname="pytest.DemoFirstTest.test_second" name="test_logout" time="0.001" /><testcase classname="pytest.test_four" name="test_response_code" time="0.001" /><testcase classname="pytest.test_math_func" name="test_add" time="0.001" /><testcase classname="pytest.test_math_func" name="test_sub" time="0.000" /><testcase classname="pytest.test_math_func" name="test_add_string" time="0.000" /><testcase classname="pytest.test_three.MyTestCase" name="test_something" time="0.001"><failure message="AssertionError: True != False">self = &lt;test_three.MyTestCase testMethod=test_something&gt;
+
+    def test_something(self):
+&gt;       self.assertEqual(True, False)  # add assertion here
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: True != False
+
+pytest\test_three.py:6: AssertionError</failure></testcase></testsuite></testsuites>

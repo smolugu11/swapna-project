@@ -23,3 +23,20 @@ for _ in range(3):
 
     else:
         print("Access denied. Try again.")
+
+for i in range(5):
+    print(" start the loop " + str(i))
+
+while i <= 10:
+    print("numbers")
+    i +=1
+
+for i in range(10, 40, 10):
+    print("hello" + str(i ))
+
+x = ["apple", "banana", "cherry"]
+for i in x:
+    print(i)
+
+for i in range(20, 15,-1): # PRINT RESERVE : 20, 19, 18, 17, 16
+    print(i)
